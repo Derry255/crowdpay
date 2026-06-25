@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint src/",
+    "dev": "node init && vite",
+    "build": "node init && vite build",
+    "lint": "eslint .",
     "lint:fix": "eslint src/ --fix",
     "format": "prettier --write src/",
     "preview": "vite preview",
